@@ -1,6 +1,6 @@
 @_exported import KeychainTypes
 
-#if os(macOS) || os(iOS)
+#if os(macOS) || os(iOS) || os(iPadOS)
 
 @_exported import KeychainMacOS
 
