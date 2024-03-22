@@ -16,8 +16,8 @@ let package = Package(
             targets: ["Keychain"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/OperatorFoundation/KeychainMacOS", from: "1.0.2"),
-        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.1"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainMacOS", from: "1.0.3"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.2"),
     ],
     targets: [
         .target(
@@ -38,8 +38,8 @@ let package = Package(
             targets: ["Keychain"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/OperatorFoundation/KeychainLinux", from: "2.0.1"),
-        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.1"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainLinux", from: "2.0.3"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.2"),
     ],
     targets: [
         .target(
