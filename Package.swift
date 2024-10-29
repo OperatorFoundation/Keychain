@@ -38,7 +38,7 @@ let package = Package(
             targets: ["Keychain"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/OperatorFoundation/KeychainLinux", from: "2.0.3"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainLinux", from: "2.0.4"),
         .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.2"),
     ],
     targets: [
